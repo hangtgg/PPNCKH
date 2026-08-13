@@ -1,0 +1,4 @@
+category,model,feature_set,rmse_mean,cost_metric,cost_mean,tradeoff_distance
+Best accuracy,LSTM,F2,341.55581067,training_time_mean,1026.48838733,0.38492249
+Fastest training_time,XGB,F2,466.58591567,training_time_mean,1.95934533,0.03413187
+Best accuracy-efficiency trade-off,XGB,F1,459.71680400,training_time_mean,2.03939933,0.03225669

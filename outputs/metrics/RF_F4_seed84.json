@@ -1,0 +1,17 @@
+{
+    "run_name": "RF_F4_seed84",
+    "model": "RF",
+    "feature_set": "F4",
+    "seed": 84,
+    "evaluation_split": "test",
+    "mae": 314.53144397786525,
+    "mse": 218534.89942428778,
+    "rmse": 467.47716460195977,
+    "mape_percent": 0.9883215414242432,
+    "smape_percent": 0.9884922114095777,
+    "r2": 0.995071794766101,
+    "training_seconds": 67.9548696000129,
+    "inference_seconds": 0.38219769997522235,
+    "inference_ms_per_sample": 0.07782482182350282,
+    "test_rows": 4911
+}

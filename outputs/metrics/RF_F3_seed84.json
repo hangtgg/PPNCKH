@@ -1,0 +1,17 @@
+{
+    "run_name": "RF_F3_seed84",
+    "model": "RF",
+    "feature_set": "F3",
+    "seed": 84,
+    "evaluation_split": "test",
+    "mae": 312.39036483898025,
+    "mse": 213514.05939743793,
+    "rmse": 462.07581563790797,
+    "mape_percent": 0.9826950767786224,
+    "smape_percent": 0.9827409491614449,
+    "r2": 0.9951850202974192,
+    "training_seconds": 53.016648999997415,
+    "inference_seconds": 0.24802239995915443,
+    "inference_ms_per_sample": 0.050503441246009854,
+    "test_rows": 4911
+}

@@ -1,0 +1,17 @@
+{
+    "run_name": "LSTM_F3_seed168",
+    "model": "LSTM",
+    "feature_set": "F3",
+    "seed": 168,
+    "evaluation_split": "test",
+    "mae": 242.73501490595092,
+    "mse": 106396.64419329858,
+    "rmse": 326.18498462268093,
+    "mape_percent": 0.7969318194540982,
+    "smape_percent": 0.7959119461153675,
+    "r2": 0.9976006372430031,
+    "training_seconds": 1030.9665837000357,
+    "inference_seconds": 1.4893900000024587,
+    "inference_ms_per_sample": 0.3032763184692443,
+    "test_rows": 4911
+}

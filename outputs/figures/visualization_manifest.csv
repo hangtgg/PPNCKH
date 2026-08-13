@@ -1,0 +1,54 @@
+artifact,type,path,description
+report_all_runs_metrics,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\report_all_runs_metrics.csv,All validated runs.
+report_summary_metrics,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\report_summary_metrics.csv,Mean and standard deviation across seeds.
+report_accuracy_ranking,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\report_accuracy_ranking.csv,Overall accuracy ranking.
+report_rmse_improvement_vs_f0,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\report_rmse_improvement_vs_f0.csv,RMSE improvements relative to F0.
+01_rmse_by_feature_set,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\01_rmse_by_feature_set.png,Mean RMSE and standard deviation across seeds.
+01_rmse_by_feature_set,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\01_rmse_by_feature_set.pdf,Mean RMSE and standard deviation across seeds.
+02_mae_by_feature_set,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\02_mae_by_feature_set.png,Mean MAE and standard deviation across seeds.
+02_mae_by_feature_set,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\02_mae_by_feature_set.pdf,Mean MAE and standard deviation across seeds.
+03_mape_by_feature_set,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\03_mape_by_feature_set.png,Mean MAPE (%) and standard deviation across seeds.
+03_mape_by_feature_set,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\03_mape_by_feature_set.pdf,Mean MAPE (%) and standard deviation across seeds.
+04_r2_by_feature_set,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\04_r2_by_feature_set.png,Mean R² and standard deviation across seeds.
+04_r2_by_feature_set,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\04_r2_by_feature_set.pdf,Mean R² and standard deviation across seeds.
+05_01_rf_rmse,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_01_rf_rmse.png,RF RMSE across feature sets.
+05_01_rf_rmse,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_01_rf_rmse.pdf,RF RMSE across feature sets.
+05_02_xgb_rmse,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_02_xgb_rmse.png,XGB RMSE across feature sets.
+05_02_xgb_rmse,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_02_xgb_rmse.pdf,XGB RMSE across feature sets.
+05_03_lgbm_rmse,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_03_lgbm_rmse.png,LGBM RMSE across feature sets.
+05_03_lgbm_rmse,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_03_lgbm_rmse.pdf,LGBM RMSE across feature sets.
+05_04_lstm_rmse,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_04_lstm_rmse.png,LSTM RMSE across feature sets.
+05_04_lstm_rmse,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\05_04_lstm_rmse.pdf,LSTM RMSE across feature sets.
+06_rmse_heatmap,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\06_rmse_heatmap.png,RMSE heatmap for all configurations.
+06_rmse_heatmap,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\06_rmse_heatmap.pdf,RMSE heatmap for all configurations.
+07_rmse_improvement_vs_f0,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\07_rmse_improvement_vs_f0.png,Percentage RMSE improvement relative to F0.
+07_rmse_improvement_vs_f0,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\07_rmse_improvement_vs_f0.pdf,Percentage RMSE improvement relative to F0.
+08_training_time,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\08_training_time.png,Training time (s) comparison on a log scale.
+08_training_time,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\08_training_time.pdf,Training time (s) comparison on a log scale.
+09_inference_time,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\09_inference_time.png,Inference time (s) comparison on a log scale.
+09_inference_time,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\09_inference_time.pdf,Inference time (s) comparison on a log scale.
+10_pareto_inference_time,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\10_pareto_inference_time.png,Pareto frontier for RMSE versus Inference time (s).
+10_pareto_inference_time,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\10_pareto_inference_time.pdf,Pareto frontier for RMSE versus Inference time (s).
+10b_pareto_training_time,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\10b_pareto_training_time.png,Pareto frontier for RMSE versus Training time (s).
+10b_pareto_training_time,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\10b_pareto_training_time.pdf,Pareto frontier for RMSE versus Training time (s).
+report_pareto_inference,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\report_pareto_inference.csv,Computed inference-time Pareto frontier.
+report_pareto_training,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\report_pareto_training.csv,Computed training-time Pareto frontier.
+11_seed_stability_rmse,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\11_seed_stability_rmse.png,RMSE distribution across seeds.
+11_seed_stability_rmse,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\11_seed_stability_rmse.pdf,RMSE distribution across seeds.
+12_best_run_forecast,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\12_best_run_forecast.png,Actual and predicted load for the best run.
+12_best_run_forecast,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\12_best_run_forecast.pdf,Actual and predicted load for the best run.
+13_best_run_residuals,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\13_best_run_residuals.png,Residual distribution for the best run.
+13_best_run_residuals,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\13_best_run_residuals.pdf,Residual distribution for the best run.
+14_best_run_scatter,png,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\14_best_run_scatter.png,Actual-versus-predicted scatter for the best run.
+14_best_run_scatter,pdf,C:\Users\hangn\Downloads\archive (1)\outputs\figures\figures\14_best_run_scatter.pdf,Actual-versus-predicted scatter for the best run.
+H1_H1_metrics_table,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H1_H1_metrics_table.csv,Copy of outputs\statistics\H1\H1_metrics_table.csv for report use.
+H1_H1_dm_tests,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H1_H1_dm_tests.csv,Copy of outputs\statistics\H1\H1_dm_tests.csv for report use.
+H1_H1_bootstrap_ci,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H1_H1_bootstrap_ci.csv,Copy of outputs\statistics\H1\H1_bootstrap_ci.csv for report use.
+H2_H2_model_improvement,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H2_H2_model_improvement.csv,Copy of outputs\statistics\H2\H2_model_improvement.csv for report use.
+H2_H2_incremental_improvement,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H2_H2_incremental_improvement.csv,Copy of outputs\statistics\H2\H2_incremental_improvement.csv for report use.
+H2_H2_anova,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H2_H2_anova.csv,Copy of outputs\statistics\H2\H2_anova.csv for report use.
+H2_H2_effect_sizes,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H2_H2_effect_sizes.csv,Copy of outputs\statistics\H2\H2_effect_sizes.csv for report use.
+H2_H2_bootstrap_interactions,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H2_H2_bootstrap_interactions.csv,Copy of outputs\statistics\H2\H2_bootstrap_interactions.csv for report use.
+H3_H3_accuracy_efficiency,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H3_H3_accuracy_efficiency.csv,Copy of outputs\statistics\H3\H3_accuracy_efficiency.csv for report use.
+H3_H3_pareto_frontier,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H3_H3_pareto_frontier.csv,Copy of outputs\statistics\H3\H3_pareto_frontier.csv for report use.
+H3_H3_best_configurations,csv,C:\Users\hangn\Downloads\archive (1)\outputs\figures\tables\H3_H3_best_configurations.csv,Copy of outputs\statistics\H3\H3_best_configurations.csv for report use.

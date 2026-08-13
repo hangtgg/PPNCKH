@@ -1,0 +1,17 @@
+{
+    "run_name": "LGBM_F2_seed168",
+    "model": "LGBM",
+    "feature_set": "F2",
+    "seed": 168,
+    "evaluation_split": "test",
+    "mae": 289.16521749004033,
+    "mse": 221747.97931245557,
+    "rmse": 470.9012415703059,
+    "mape_percent": 0.8899445903547768,
+    "smape_percent": 0.8912483902495202,
+    "r2": 0.9949993362381335,
+    "training_seconds": 2.8212812999845482,
+    "inference_seconds": 0.08094810001784936,
+    "inference_ms_per_sample": 0.016483017718967492,
+    "test_rows": 4911
+}

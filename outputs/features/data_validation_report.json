@@ -1,0 +1,42 @@
+{
+    "original_rows": 32896,
+    "original_columns": [
+        "Datetime",
+        "PJM_Load_MW"
+    ],
+    "detected_datetime_column": "Datetime",
+    "detected_load_column": "PJM_Load_MW",
+    "invalid_datetime_values": 0,
+    "invalid_or_missing_load_values_before_cleaning": 0,
+    "rows_in_duplicate_groups": 0,
+    "duplicate_timestamp_count": 0,
+    "rows_after_duplicate_handling": 32896,
+    "negative_load_values": 0,
+    "start_timestamp": "1998-04-01 01:00:00",
+    "end_timestamp": "2002-01-01 00:00:00",
+    "expected_hourly_rows": 32904,
+    "missing_timestamps_before_reindex": 8,
+    "missing_timestamp_examples": [
+        "1998-04-05 03:00:00",
+        "1998-10-25 02:00:00",
+        "1999-04-04 03:00:00",
+        "1999-10-31 02:00:00",
+        "2000-04-02 03:00:00",
+        "2000-10-29 02:00:00",
+        "2001-04-01 03:00:00",
+        "2001-10-28 02:00:00"
+    ],
+    "missing_load_before_interpolation": 8,
+    "missing_load_after_interpolation": 0,
+    "interpolated_value_count": 8,
+    "negative_load_values_after_interpolation": 0,
+    "hourly_frequency_after_cleaning": true,
+    "duplicate_timestamps_after_cleaning": 0,
+    "clean_rows": 32904,
+    "inserted_timestamp_rows": 8,
+    "remaining_missing_values": 0,
+    "load_min": 17461.0,
+    "load_max": 54030.0,
+    "load_mean": 29764.228634816434,
+    "load_std": 5850.797163404235
+}

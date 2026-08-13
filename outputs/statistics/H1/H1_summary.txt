@@ -1,0 +1,23 @@
+H1: Feature-set improvement over baseline
+Baseline: F0
+Alpha: 0.05
+Loss for DM test: squared
+Holm correction: True
+Block bootstrap: True
+
+LGBM F0→F1: ΔRMSE=60.650833, improvement=11.580%, Holm-adjusted p=7.29317e-58; statistically significant improvement.
+LGBM F0→F2: ΔRMSE=52.845882, improvement=10.090%, Holm-adjusted p=7.51527e-23; statistically significant improvement.
+LGBM F0→F3: ΔRMSE=33.075081, improvement=6.315%, Holm-adjusted p=0.012719; statistically significant improvement.
+LGBM F0→F4: ΔRMSE=3.439486, improvement=0.657%, Holm-adjusted p=1; no statistically significant improvement.
+LSTM F0→F1: ΔRMSE=2506.179467, improvement=85.483%, Holm-adjusted p=1.44129e-102; statistically significant improvement.
+LSTM F0→F2: ΔRMSE=2590.237314, improvement=88.350%, Holm-adjusted p=9.77187e-105; statistically significant improvement.
+LSTM F0→F3: ΔRMSE=2574.154238, improvement=87.801%, Holm-adjusted p=8.38296e-105; statistically significant improvement.
+LSTM F0→F4: ΔRMSE=2532.969510, improvement=86.397%, Holm-adjusted p=2.1279e-104; statistically significant improvement.
+RF F0→F1: ΔRMSE=27.651746, improvement=5.492%, Holm-adjusted p=5.88612e-26; statistically significant improvement.
+RF F0→F2: ΔRMSE=43.276081, improvement=8.594%, Holm-adjusted p=1.21494e-49; statistically significant improvement.
+RF F0→F3: ΔRMSE=40.760706, improvement=8.095%, Holm-adjusted p=1.08167e-41; statistically significant improvement.
+RF F0→F4: ΔRMSE=36.071089, improvement=7.164%, Holm-adjusted p=9.0107e-25; statistically significant improvement.
+XGB F0→F1: ΔRMSE=53.749696, improvement=10.468%, Holm-adjusted p=1.84123e-14; statistically significant improvement.
+XGB F0→F2: ΔRMSE=46.880584, improvement=9.130%, Holm-adjusted p=1.43999e-08; statistically significant improvement.
+XGB F0→F3: ΔRMSE=28.107850, improvement=5.474%, Holm-adjusted p=0.018963; statistically significant improvement.
+XGB F0→F4: ΔRMSE=7.513768, improvement=1.463%, Holm-adjusted p=1; no statistically significant improvement.

@@ -1,0 +1,17 @@
+{
+    "run_name": "XGB_F3_seed42",
+    "model": "XGB",
+    "feature_set": "F3",
+    "seed": 42,
+    "evaluation_split": "test",
+    "mae": 286.3866073928426,
+    "mse": 215640.79767594815,
+    "rmse": 464.37140057926496,
+    "mape_percent": 0.8818143461920889,
+    "smape_percent": 0.8831541640854614,
+    "r2": 0.9951370599819598,
+    "training_seconds": 2.026368399965577,
+    "inference_seconds": 0.016064000024925917,
+    "inference_ms_per_sample": 0.0032710242363929785,
+    "test_rows": 4911
+}

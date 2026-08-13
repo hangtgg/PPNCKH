@@ -1,0 +1,17 @@
+{
+    "run_name": "RF_F0_seed168",
+    "model": "RF",
+    "feature_set": "F0",
+    "seed": 168,
+    "evaluation_split": "test",
+    "mae": 346.5330689241728,
+    "mse": 253724.90503094075,
+    "rmse": 503.7111325263129,
+    "mape_percent": 1.1040832033342878,
+    "smape_percent": 1.1042285837227632,
+    "r2": 0.9942782209695654,
+    "training_seconds": 48.223770799988415,
+    "inference_seconds": 0.37726360000669956,
+    "inference_ms_per_sample": 0.0768201181035837,
+    "test_rows": 4911
+}

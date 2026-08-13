@@ -1,0 +1,17 @@
+{
+    "run_name": "LSTM_F4_seed42",
+    "model": "LSTM",
+    "feature_set": "F4",
+    "seed": 42,
+    "evaluation_split": "test",
+    "mae": 334.98887024982184,
+    "mse": 213318.9608935203,
+    "rmse": 461.864656467152,
+    "mape_percent": 1.0787436461351068,
+    "smape_percent": 1.0811762484574652,
+    "r2": 0.9951894199858473,
+    "training_seconds": 1345.036557400017,
+    "inference_seconds": 2.45294190000277,
+    "inference_ms_per_sample": 0.49947910812518226,
+    "test_rows": 4911
+}

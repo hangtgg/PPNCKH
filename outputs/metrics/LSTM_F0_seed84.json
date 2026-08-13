@@ -1,0 +1,17 @@
+{
+    "run_name": "LSTM_F0_seed84",
+    "model": "LSTM",
+    "feature_set": "F0",
+    "seed": 84,
+    "evaluation_split": "test",
+    "mae": 2277.476455517588,
+    "mse": 8743434.988065181,
+    "rmse": 2956.9299937714422,
+    "mape_percent": 7.301730680628409,
+    "smape_percent": 7.281744943183473,
+    "r2": 0.8028258086742462,
+    "training_seconds": 440.9699780999799,
+    "inference_seconds": 2.0857596999849193,
+    "inference_ms_per_sample": 0.42471181021887994,
+    "test_rows": 4911
+}

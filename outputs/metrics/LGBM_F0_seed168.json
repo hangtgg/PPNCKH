@@ -1,0 +1,17 @@
+{
+    "run_name": "LGBM_F0_seed168",
+    "model": "LGBM",
+    "feature_set": "F0",
+    "seed": 168,
+    "evaluation_split": "test",
+    "mae": 339.5201574242136,
+    "mse": 274311.04951389565,
+    "rmse": 523.7471236330522,
+    "mape_percent": 1.0697261035035739,
+    "smape_percent": 1.070652165794347,
+    "r2": 0.9938139804969729,
+    "training_seconds": 2.4599909000098705,
+    "inference_seconds": 0.07360380003228784,
+    "inference_ms_per_sample": 0.014987538186171418,
+    "test_rows": 4911
+}

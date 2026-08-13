@@ -1,0 +1,13 @@
+H3: Accuracy-efficiency analysis
+Accuracy metric: rmse_mean
+Cost metric: inference_time_mean
+Accuracy weight: 0.5
+Cost weight: 0.5
+
+The ideal-point distance is a decision-support criterion, not a forecasting metric.
+
+Best accuracy: LSTM-F2; RMSE=341.555811; inference_time_mean=1.499234; distance=0.436759.
+Fastest inference_time: XGB-F1; RMSE=459.716804; inference_time_mean=0.012858; distance=0.032257.
+Best accuracy-efficiency trade-off: XGB-F1; RMSE=459.716804; inference_time_mean=0.012858; distance=0.032257.
+
+Number of two-objective Pareto-efficient configurations: 4.

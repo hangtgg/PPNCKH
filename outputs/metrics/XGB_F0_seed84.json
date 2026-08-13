@@ -1,0 +1,17 @@
+{
+    "run_name": "XGB_F0_seed84",
+    "model": "XGB",
+    "feature_set": "F0",
+    "seed": 84,
+    "evaluation_split": "test",
+    "mae": 334.6498704279933,
+    "mse": 250722.6384184559,
+    "rmse": 500.722116965544,
+    "mape_percent": 1.05838915753896,
+    "smape_percent": 1.0588819651736108,
+    "r2": 0.9943459254235093,
+    "training_seconds": 1.9105683999950998,
+    "inference_seconds": 0.013735699991229922,
+    "inference_ms_per_sample": 0.002796925268016681,
+    "test_rows": 4911
+}

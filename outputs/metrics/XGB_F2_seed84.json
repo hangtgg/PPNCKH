@@ -1,0 +1,17 @@
+{
+    "run_name": "XGB_F2_seed84",
+    "model": "XGB",
+    "feature_set": "F2",
+    "seed": 84,
+    "evaluation_split": "test",
+    "mae": 292.04230259557625,
+    "mse": 208445.01743430912,
+    "rmse": 456.55779199824104,
+    "mape_percent": 0.907418845628011,
+    "smape_percent": 0.908224798433269,
+    "r2": 0.9952993328360542,
+    "training_seconds": 1.9211235999828205,
+    "inference_seconds": 0.014076199964620173,
+    "inference_ms_per_sample": 0.0028662594104296828,
+    "test_rows": 4911
+}

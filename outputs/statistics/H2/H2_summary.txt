@@ -1,0 +1,15 @@
+H2: Model × feature-set interaction
+Blocked ANOVA model:
+RMSE ~ C(seed) + C(model) * C(feature_set)
+Alpha: 0.05
+
+Interaction p-value: 2.5402883e-49
+Conclusion: the influence of feature set depends significantly on the forecasting model.
+
+Interpret cautiously because only three random seeds are available and all models share the same test period.
+
+F0→F4 improvements:
+RF: ΔRMSE=36.071089, improvement=7.164%.
+XGB: ΔRMSE=7.513768, improvement=1.463%.
+LGBM: ΔRMSE=3.439486, improvement=0.657%.
+LSTM: ΔRMSE=2532.969510, improvement=86.397%.

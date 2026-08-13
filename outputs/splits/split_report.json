@@ -1,0 +1,226 @@
+{
+    "split_method": "chronological_no_shuffle",
+    "feature_sets": [
+        "F0",
+        "F1",
+        "F2",
+        "F3",
+        "F4"
+    ],
+    "feature_sets_aligned": true,
+    "total_rows_per_feature_set": 32735,
+    "requested_ratios": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "actual_ratios": {
+        "train": 0.6999847258286238,
+        "validation": 0.1499923629143119,
+        "test": 0.1500229112570643
+    },
+    "split_sizes": {
+        "train": 22914,
+        "validation": 4910,
+        "test": 4911
+    },
+    "split_indices": {
+        "train_start": 0,
+        "train_end_exclusive": 22914,
+        "validation_start": 22914,
+        "validation_end_exclusive": 27824,
+        "test_start": 27824,
+        "test_end_exclusive": 32735
+    },
+    "common_periods": {
+        "train": {
+            "start": "1998-04-08 01:00:00",
+            "end": "2000-11-17 18:00:00"
+        },
+        "validation": {
+            "start": "2000-11-17 19:00:00",
+            "end": "2001-06-10 08:00:00"
+        },
+        "test": {
+            "start": "2001-06-10 09:00:00",
+            "end": "2001-12-31 23:00:00"
+        }
+    },
+    "files": {
+        "F0": {
+            "train": {
+                "file": "outputs\\splits\\F0_train.csv",
+                "rows": 22914,
+                "columns": 26,
+                "input_feature_count": 24,
+                "first_timestamp": "1998-04-08 01:00:00",
+                "last_timestamp": "2000-11-17 18:00:00",
+                "target_min": 17461.0,
+                "target_max": 51714.0,
+                "target_mean": 29481.216919787028
+            },
+            "validation": {
+                "file": "outputs\\splits\\F0_validation.csv",
+                "rows": 4910,
+                "columns": 26,
+                "input_feature_count": 24,
+                "first_timestamp": "2000-11-17 19:00:00",
+                "last_timestamp": "2001-06-10 08:00:00",
+                "target_min": 18549.0,
+                "target_max": 41489.0,
+                "target_mean": 30067.510285132383
+            },
+            "test": {
+                "file": "outputs\\splits\\F0_test.csv",
+                "rows": 4911,
+                "columns": 26,
+                "input_feature_count": 24,
+                "first_timestamp": "2001-06-10 09:00:00",
+                "last_timestamp": "2001-12-31 23:00:00",
+                "target_min": 19023.0,
+                "target_max": 54030.0,
+                "target_mean": 30915.539706780695
+            }
+        },
+        "F1": {
+            "train": {
+                "file": "outputs\\splits\\F1_train.csv",
+                "rows": 22914,
+                "columns": 31,
+                "input_feature_count": 29,
+                "first_timestamp": "1998-04-08 01:00:00",
+                "last_timestamp": "2000-11-17 18:00:00",
+                "target_min": 17461.0,
+                "target_max": 51714.0,
+                "target_mean": 29481.216919787028
+            },
+            "validation": {
+                "file": "outputs\\splits\\F1_validation.csv",
+                "rows": 4910,
+                "columns": 31,
+                "input_feature_count": 29,
+                "first_timestamp": "2000-11-17 19:00:00",
+                "last_timestamp": "2001-06-10 08:00:00",
+                "target_min": 18549.0,
+                "target_max": 41489.0,
+                "target_mean": 30067.510285132383
+            },
+            "test": {
+                "file": "outputs\\splits\\F1_test.csv",
+                "rows": 4911,
+                "columns": 31,
+                "input_feature_count": 29,
+                "first_timestamp": "2001-06-10 09:00:00",
+                "last_timestamp": "2001-12-31 23:00:00",
+                "target_min": 19023.0,
+                "target_max": 54030.0,
+                "target_mean": 30915.539706780695
+            }
+        },
+        "F2": {
+            "train": {
+                "file": "outputs\\splits\\F2_train.csv",
+                "rows": 22914,
+                "columns": 34,
+                "input_feature_count": 32,
+                "first_timestamp": "1998-04-08 01:00:00",
+                "last_timestamp": "2000-11-17 18:00:00",
+                "target_min": 17461.0,
+                "target_max": 51714.0,
+                "target_mean": 29481.216919787028
+            },
+            "validation": {
+                "file": "outputs\\splits\\F2_validation.csv",
+                "rows": 4910,
+                "columns": 34,
+                "input_feature_count": 32,
+                "first_timestamp": "2000-11-17 19:00:00",
+                "last_timestamp": "2001-06-10 08:00:00",
+                "target_min": 18549.0,
+                "target_max": 41489.0,
+                "target_mean": 30067.510285132383
+            },
+            "test": {
+                "file": "outputs\\splits\\F2_test.csv",
+                "rows": 4911,
+                "columns": 34,
+                "input_feature_count": 32,
+                "first_timestamp": "2001-06-10 09:00:00",
+                "last_timestamp": "2001-12-31 23:00:00",
+                "target_min": 19023.0,
+                "target_max": 54030.0,
+                "target_mean": 30915.539706780695
+            }
+        },
+        "F3": {
+            "train": {
+                "file": "outputs\\splits\\F3_train.csv",
+                "rows": 22914,
+                "columns": 36,
+                "input_feature_count": 34,
+                "first_timestamp": "1998-04-08 01:00:00",
+                "last_timestamp": "2000-11-17 18:00:00",
+                "target_min": 17461.0,
+                "target_max": 51714.0,
+                "target_mean": 29481.216919787028
+            },
+            "validation": {
+                "file": "outputs\\splits\\F3_validation.csv",
+                "rows": 4910,
+                "columns": 36,
+                "input_feature_count": 34,
+                "first_timestamp": "2000-11-17 19:00:00",
+                "last_timestamp": "2001-06-10 08:00:00",
+                "target_min": 18549.0,
+                "target_max": 41489.0,
+                "target_mean": 30067.510285132383
+            },
+            "test": {
+                "file": "outputs\\splits\\F3_test.csv",
+                "rows": 4911,
+                "columns": 36,
+                "input_feature_count": 34,
+                "first_timestamp": "2001-06-10 09:00:00",
+                "last_timestamp": "2001-12-31 23:00:00",
+                "target_min": 19023.0,
+                "target_max": 54030.0,
+                "target_mean": 30915.539706780695
+            }
+        },
+        "F4": {
+            "train": {
+                "file": "outputs\\splits\\F4_train.csv",
+                "rows": 22914,
+                "columns": 42,
+                "input_feature_count": 40,
+                "first_timestamp": "1998-04-08 01:00:00",
+                "last_timestamp": "2000-11-17 18:00:00",
+                "target_min": 17461.0,
+                "target_max": 51714.0,
+                "target_mean": 29481.216919787028
+            },
+            "validation": {
+                "file": "outputs\\splits\\F4_validation.csv",
+                "rows": 4910,
+                "columns": 42,
+                "input_feature_count": 40,
+                "first_timestamp": "2000-11-17 19:00:00",
+                "last_timestamp": "2001-06-10 08:00:00",
+                "target_min": 18549.0,
+                "target_max": 41489.0,
+                "target_mean": 30067.510285132383
+            },
+            "test": {
+                "file": "outputs\\splits\\F4_test.csv",
+                "rows": 4911,
+                "columns": 42,
+                "input_feature_count": 40,
+                "first_timestamp": "2001-06-10 09:00:00",
+                "last_timestamp": "2001-12-31 23:00:00",
+                "target_min": 19023.0,
+                "target_max": 54030.0,
+                "target_mean": 30915.539706780695
+            }
+        }
+    }
+}

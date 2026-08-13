@@ -1,0 +1,18 @@
+{
+  "experiment": "H1",
+  "metrics_file": "outputs\\metrics\\all_runs_metrics.csv",
+  "prediction_dir": "outputs\\predictions",
+  "baseline": "F0",
+  "final_feature_set": "F4",
+  "alpha": 0.05,
+  "holm_correction": true,
+  "block_bootstrap": true,
+  "bootstrap_repetitions": 2000,
+  "block_length": 24,
+  "dm_lag": 24,
+  "loss": "squared",
+  "random_state": 42,
+  "tradeoff_cost": "inference_time",
+  "accuracy_weight": 0.5,
+  "cost_weight": 0.5
+}

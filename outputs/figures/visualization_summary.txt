@@ -1,0 +1,13 @@
+VISUALIZATION SUMMARY
+========================================================================
+Runs: 60
+Configurations: 20
+
+Best mean configuration:
+LSTM-F2 | RMSE=341.555811 | MAE=254.042396 | R²=0.997368
+
+Best individual run:
+LSTM-F3-seed168 | RMSE=326.184994 | MAE=242.735023 | R²=0.997601
+
+Largest improvement over F0:
+LSTM-F2: 88.3499%

@@ -1,0 +1,4 @@
+category,model,feature_set,rmse_mean,cost_metric,cost_mean,tradeoff_distance
+Best accuracy,LSTM,F2,341.555811,inference_time_mean,1.499234,0.436759
+Fastest inference_time,XGB,F1,459.716804,inference_time_mean,0.012858,0.032257
+Best accuracy-efficiency trade-off,XGB,F1,459.716804,inference_time_mean,0.012858,0.032257
